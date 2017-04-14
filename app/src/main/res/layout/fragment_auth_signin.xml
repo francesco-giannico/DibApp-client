@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/auth_signin_desc"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/slide_desc" />
+
+        <EditText
+            android:id="@+id/email_signin_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@android:color/white"
+            android:shadowColor="@color/auth_hint_color"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorHint="@color/auth_hint_color" />
+
+        <EditText
+            android:id="@+id/password_signin_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@android:color/white"
+            android:hint="@string/password_hint"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:shadowColor="@color/auth_hint_color"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorHint="@color/auth_hint_color" />
+
+        <TextView
+            android:id="@+id/forget_psw_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="4dp"
+            android:text="@string/forget_password"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/done_signin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/white"
+            android:text="@string/sign_in" />
+
+    </LinearLayout>
+
+</RelativeLayout>

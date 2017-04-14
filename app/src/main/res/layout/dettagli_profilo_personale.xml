@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details">
+
+        <TextView
+            android:id="@+id/label_intestazione_profilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/contactInfo"
+            android:maxLines="1"/>
+
+        <ImageView
+            android:id="@+id/firstImageViewProfilo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_nickname"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/label_intestazione_profilo"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/firstTextViewProfilo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_below="@id/label_intestazione_profilo"/>
+
+        <ImageView
+            android:id="@+id/secondImageViewProfilo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_sessione"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/firstImageViewProfilo"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/secondTextViewProfilo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="marquee"
+            android:textColor="#000"
+            android:maxLines="1"
+            android:gravity="center"
+            android:layout_below="@id/firstTextViewProfilo"/>
+
+        <ImageView
+            android:id="@+id/thirdImageViewProfilo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_mail"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/secondImageViewProfilo"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/thirdTextViewProfilo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_below="@id/secondTextViewProfilo"/>
+
+        <ImageView
+            android:id="@+id/fourthImageViewProfilo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_phone"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/thirdImageViewProfilo"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/fourthTextViewProfilo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="35dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_below="@id/thirdTextViewProfilo"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details">
+
+        <TextView
+            android:id="@+id/label_intestazione_interessi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/interestTitle"
+            android:maxLines="1"/>
+
+        <ImageView
+            android:id="@+id/firstImageInterest"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/label_intestazione_interessi"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/firstInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_below="@id/label_intestazione_interessi"/>
+
+        <ImageView
+            android:id="@+id/secondImageInterest"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/firstImageInterest"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/secondInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="marquee"
+            android:textColor="#000"
+            android:maxLines="1"
+            android:gravity="center"
+            android:layout_below="@id/firstInterest" />
+
+        <ImageView
+            android:id="@+id/thirdImageInterest"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/secondImageInterest"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/thirdInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_below="@id/secondInterest"/>
+
+        <ImageView
+            android:id="@+id/fourthImageInterest"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@id/thirdImageInterest"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/fourthInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="35dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_below="@id/thirdInterest"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

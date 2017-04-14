@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage_followItem"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_account_circle_dark"
+        android:layout_margin="16dp"
+        android:focusableInTouchMode="true"/>
+
+    <TextView
+        android:id="@+id/nomeCognome_followItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="16dp"
+        android:ellipsize="middle"
+        android:maxLines="1"
+        android:gravity="left"
+        android:layout_centerVertical="true"/>
+
+    <ToggleButton
+        android:id="@+id/follow_toogleButton"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:ellipsize="middle"
+        android:textAllCaps="false"
+        android:textOn="@string/stopfollow"
+        android:textOff="@string/follow"
+        android:visibility="invisible"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_alignRight="@id/nomeCognome_followItem"/>
+
+</RelativeLayout>

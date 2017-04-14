@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1">
+    <!-- Here is the list. Since we are using a ListActivity, we
+         have to call it "@android:id/list" so ListActivity will
+         find it -->
+    <!--
+    <it.uniba.di.ivu.sms16.gruppo2.dibapp.dibApp_customLayout.NestedListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="false"
+        android:nestedScrollingEnabled="true"
+        app:layout_scrollFlags="scroll|enterAlwaysCollapsed"/>-->
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="false"
+        android:nestedScrollingEnabled="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed" />
+
+    <!-- Here is the view to show if the list is emtpy -->
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:nestedScrollingEnabled="true"
+        android:text="No items."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible" />
+
+</FrameLayout>

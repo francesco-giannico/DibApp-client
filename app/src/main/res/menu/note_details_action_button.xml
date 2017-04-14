@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/add_my_notes"
+        android:icon="@drawable/ic_add"
+        android:title="@string/note_details_action_button_add_to_my_notes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete_note"
+        android:icon="@drawable/ic_delete_white"
+        android:title="@string/note_details_delete_note"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/modify_note"
+        android:icon="@drawable/ic_edit_white"
+        android:title="@string/note_details_modify_note"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/note_download"
+        android:icon="@drawable/ic_download"
+        android:title="@string/note_details_action_button_download"
+        app:showAsAction="ifRoom" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>

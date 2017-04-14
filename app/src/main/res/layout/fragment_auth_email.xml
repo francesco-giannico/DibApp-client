@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/auth_desc"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/auth_desc" />
+
+        <EditText
+            android:id="@+id/auth_email_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@android:color/white"
+            android:hint="@string/email_uniba_hint"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorHint="@color/auth_hint_color" />
+
+        <Button
+            android:id="@+id/auth_continue_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/white"
+            android:text="@string/_continue" />
+
+    </LinearLayout>
+
+</RelativeLayout>

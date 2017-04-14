@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".profile.ProfiloUtenteActivity">
+
+    <it.uniba.di.ivu.sms16.gruppo2.dibapp.customlayout.CustomNestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <include layout="@layout/listitem_dettagli_profilo_personale"
+                android:id="@+id/listItemDettagli"></include>
+            <include layout="@layout/listitem_dettagli_profilo_personale"
+                android:id="@+id/listItemDettagliInteressi"></include>
+
+            <ToggleButton
+                android:id="@+id/follow_user_from_details"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:ellipsize="middle"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textOn="@string/stopfollow"
+                android:textOff="@string/follow"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_gravity="bottom|center"/>
+        </LinearLayout>
+
+    </it.uniba.di.ivu.sms16.gruppo2.dibapp.customlayout.CustomNestedScrollView>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <View
+                android:id="@+id/shadow_gradient_top"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/shadow_gradient_top"
+                android:translationZ="1dp"
+                android:focusable="false"
+                android:alpha="0.8"
+                app:layout_collapseMode="pin" />
+
+            <View
+                android:id="@+id/shadow_gradient_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@drawable/shadow_gradient_bottom"
+                android:translationZ="1dp"
+                android:focusable="false"
+                android:alpha="0.7"
+                android:layout_gravity="bottom"/>
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_account_circle_white"
+                android:scaleType="centerCrop"
+                android:focusable="false"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+                app:layout_collapseParallaxMultiplier="0.7"
+                app:layout_collapseMode="parallax"/>
+
+            <RatingBar
+                android:id="@+id/ratingBarProfiloUtente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="190dp"
+                android:translationZ="1dp"
+                style="?android:attr/ratingBarStyleIndicator"/>
+
+            <TextView
+                android:id="@+id/title_nome_cognome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="34sp"
+                android:textColor="#fff"
+                android:translationZ="1dp"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:layout_marginTop="230dp"/>
+
+            <TextView
+                android:id="@+id/details_user_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dettagli utente"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:translationZ="1dp"
+                android:alpha="1"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:layout_marginTop="280dp"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                app:contentScrim="?attr/colorPrimary"
+                android:layout_width="match_parent"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_height="112dp"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:translationZ="2dp"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+            <!-- "layout_collapseParallaxMultiplier="0.7"
+            "Velocità animazione ActionOverflow e Hamburger
+            -->
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_star_bold"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        android:visibility="visible" />
+
+</android.support.design.widget.CoordinatorLayout>

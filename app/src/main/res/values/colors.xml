@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#30508e</color>
+    <color name="colorPrimaryDark">#213660</color>
+    <color name="colorAccent">#ffffb300</color>
+
+    <!-- Slides bg colors -->
+    <color name="bg_slide_1">#30508e</color>
+    <color name="bg_slide_2">#30508e</color>
+    <color name="bg_slide_3">#30508e</color>
+
+    <!-- Intro progress dots inactive colors -->
+    <color name="dot_dark_screen1">#213660</color>
+    <color name="dot_dark_screen2">#213660</color>
+    <color name="dot_dark_screen3">#213660</color>
+
+    <!-- Intro progress dots active colors -->
+    <color name="dot_light_screen1">#9db3de</color>
+    <color name="dot_light_screen2">#9db3de</color>
+    <color name="dot_light_screen3">#9db3de</color>
+
+    <!-- Group Intro progress dots colors into array for load them easily in intro activity -->
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <color name="auth_hint_color">#9db3de</color>
+    <color name="white">#ffffff</color>
+
+    <color name="message_text">#121212</color>
+
+    <!-- Channel colors -->
+    <color name="color_messages_bg">#F4F4F4</color>
+
+    <color name="colorTest">#e4fccb</color>
+    <color name="colorTest2">#cbe8fc</color>
+    <color name="colorTest3">#fcfccb</color>
+
+    <!-- Follow-UnFollow Buttons colors -->
+    <color name="checkedTrue">#FFE53935</color>
+    <color name="checkedMiddle1">#E02C27</color>
+    <color name="checkedMiddle2">#B11511</color>
+    <color name="checkedMiddle3">#0B6F00</color>
+    <color name="checkedMiddle4">#2FB121</color>
+    <color name="checkedMiddle5">#4EC542</color>
+    <color name="checkedFalse">#FF00C853</color>
+    <color name="followerButtonColor">#FFFAFAFA</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

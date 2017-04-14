@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="it.uniba.di.ivu.sms16.gruppo2.dibapp.LeaderBoardActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView_firstThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="false"
+        android:scrollbars="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/primi_tre_leaderboard_item_singolo_layout" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLeader_Three"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp" />
+
+</LinearLayout>

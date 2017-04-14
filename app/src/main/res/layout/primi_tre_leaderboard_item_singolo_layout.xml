@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_three"
+    android:layout_width="120dp"
+    android:layout_height="170dp"
+    android:layout_weight="0.25"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:focusable="true"
+    android:measureWithLargestChild="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:id="@+id/frmClassificato"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="false">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgClassificato"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:contentDescription="@string/immagine_del_profilo_dell_utente" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frmClassificatoDati"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true">
+
+        <RatingBar
+            android:id="@+id/ratingBarClassificato"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#00ffffff"
+            android:clickable="false"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/txtNomeClassificato"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#f9f3f3"
+            android:textSize="15sp"
+            tools:targetApi="jelly_bean_mr1" />
+
+        <TextView
+            android:id="@+id/txtPosClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="left"
+            android:text="@string/txtPosClass"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#faf5f5"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </FrameLayout>
+
+</LinearLayout>

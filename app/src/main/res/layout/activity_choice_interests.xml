@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title_interest_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:text="@string/titleInterests"
+        android:maxLines="1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_interest_dialog">
+
+        <ToggleButton
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_matematica"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/selector_interest_false"
+            android:drawableTop="@drawable/ic_mats"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="8dp"
+            android:text="Mats"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_below="@id/interest_matematica"/>
+
+        <ToggleButton
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_fisica"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_toRightOf="@id/interest_matematica"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_physic"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Physic"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/interest_matematica"
+            android:layout_below="@id/interest_fisica"/>
+
+        <ToggleButton
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_sicurezza_reti"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_toRightOf="@id/interest_fisica"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_security"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Security"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/interest_fisica"
+            android:layout_below="@id/interest_sicurezza_reti"/>
+
+        <ToggleButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_programmazione"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/interest_matematica"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_programming"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="8dp"
+            android:text="Coding"
+            android:gravity="center"
+            android:maxLines="2"
+            android:layout_below="@id/interest_programmazione"/>
+
+        <ToggleButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_programmazione_android"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/interest_fisica"
+            android:layout_toRightOf="@id/interest_programmazione"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_android"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Android developing"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_toRightOf="@id/interest_programmazione"
+            android:layout_below="@id/interest_programmazione_android"/>
+
+        <ToggleButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_web_developing"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/interest_sicurezza_reti"
+            android:layout_toRightOf="@id/interest_programmazione_android"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_www"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Web Developing"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_toRightOf="@id/interest_programmazione_android"
+            android:layout_below="@id/interest_web_developing"/>
+
+        <ToggleButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_ux"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/interest_programmazione"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_ux"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="8dp"
+            android:text="User experience"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_below="@id/interest_ux"/>
+
+        <ToggleButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_database"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/interest_programmazione_android"
+            android:layout_toRightOf="@id/interest_ux"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_database"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Database"
+            android:gravity="center"
+            android:maxLines="2"
+            android:layout_toRightOf="@id/interest_ux"
+            android:layout_below="@id/interest_database"/>
+
+        <ToggleButton
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/interest_machine_learning"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/interest_web_developing"
+            android:layout_toRightOf="@id/interest_database"
+            android:textOn=""
+            android:textOff=""
+            android:drawableTop="@drawable/ic_ml"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_interest_false"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Machine learning"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_toRightOf="@id/interest_database"
+            android:layout_below="@id/interest_machine_learning"/>
+
+        <Button
+            android:id="@+id/confermaSceltaInteressi"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Conferma"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom">
+
+        <android.support.design.widget.CoordinatorLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/snackbar_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

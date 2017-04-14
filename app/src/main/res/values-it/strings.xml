@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dib App</string>
+
+    <string-array name="degree_courses_array">
+        <item>Informatica</item>
+        <item>Informatica e Tecnologie per la Produzione del Software</item>
+        <item>Informatica e Comunicazione Digitale</item>
+    </string-array>
+    <array name="spinner_list_item_array">
+        <item>"Tutte le sessioni"</item>
+        <item>"Sessioni LeaderLess"</item>
+        <item>"Sessioni Teaching"</item>
+        <item>"Sessioni Iniziate"</item>
+    </array>
+    <array name="spinner_range">
+        <item>"500 metri(Default)"</item>
+        <item>"1 Chilometro"</item>
+    </array>
+    <string-array name="corsi_disponibili">
+        <item>"Algoritmi e strutture dati"</item>
+        <item>"Analisi matematica"</item>
+        <item>"Architettura degli elaboratori"</item>
+        <item>"Basi di dati"</item>
+        <item>"Fondamenti di fisica"</item>
+        <item>"Gestione della conoscenza di impresa"</item>
+        <item>"Calcolabilità e complessità"</item>
+        <item>"Calcolo delle probabilità e statistica"</item>
+        <item>"Calcolo numerico"</item>
+        <item>"Ingegneria della conoscenza e sistemi esperti"</item>
+        <item>"Ingegneria del software"</item>
+        <item>"Interazioine uomo-macchina"</item>
+        <item>"Linguaggi di programmazione"</item>
+        <item>"Lingua inglese"</item>
+        <item>"Matematica discreta"</item>
+        <item>"Metodi avanzati di programmazione"</item>
+        <item>"Programmazione"</item>
+        <item>"Reti di calcolatori"</item>
+        <item>"Sviluppo videogiochi"</item>
+        <item>"Sistemi multimediali"</item>
+        <item>"Sviluppo mobile software"</item>
+    </string-array>
+    <string name="ErroreImpossibileStabilirePosizione">Non è possibile visualizzare le sessioni sulla mappa</string>
+    <string name="ErroreLocationDisabilitata">Non è possibile individuare la posizione. Assicurati che la localizzazione sia abilitata</string>
+    <string name="SelezionaSessione">Seleziona una sessione per vederne i dettagli</string>
+    <string name="_continue">continua</string>
+    <string name="aPiedi">A piedi</string>
+    <string name="action_edit">Modifica</string>
+    <string name="action_info">informazioni Sessione</string>
+    <string name="action_leave">Abbandona Sessione</string>
+    <string name="action_map">Sessione su Mappa</string>
+    <string name="action_search">Cerca Sessione</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="activity_leaderboard">Classifica Studenti</string>
+    <string name="activity_mappa">Mappa Sessioni</string>
+    <string name="add">Aggiungi</string>
+    <string name="add_note_title">Carica Appunto</string>
+    <string name="add_session">Aggiungi Sessione</string>
+    <string name="add_session_title">Aggiungi Nuova Sessioni</string>
+    <string name="auth_desc">Inizia ad usare Dib App con la tua mail universitaria.</string>
+    <string name="auth_email_title">Entra con email</string>
+    <string name="auth_sign_out">Log Out con successo</string>
+    <string name="auth_signin_desc">La tua mail è gia presente.\nInserisci la password per continuare.</string>
+    <string name="auth_signin_title">Entra</string>
+    <string name="auth_signup_desc">Dicci qualcosa su di te prima di continuare.</string>
+    <string name="auth_signup_title">Crea Account</string>
+    <string name="auth_title">Autenticazione</string>
+    <string name="wait_loading_note">Attendi il caricamento della nota</string>
+    <string name="user_details">Dettagli Utente</string>
+    <string name="uploading_image">Caricamento immagine…</string>
+    <string name="upload_note_failed">Caricamento nota fallito</string>
+    <string name="upload_failure">Caricamento fallito</string>
+    <string name="upload_complete">Caricamento completato</string>
+    <string name="updating_session">Aggiornamento Sessione</string>
+    <string name="updating_info">Aggiornamento Informazioni</string>
+    <string name="unable_to_load_user">Impossibile visualizzare info utente</string>
+    <string name="toStudyVerb">studia</string>
+    <string name="title_activity_maps">Mappa</string>
+    <string name="titleInterests">Scegli i tuoi interessi</string>
+    <string name="title_slide_1">Condividi il tuo sapere</string>
+    <string name="title_slide_2">Condividi i tuoi appunti</string>
+    <string name="title_slide_3">Inizia a condividere</string>
+    <string name="sure_to_leave_session">Sei sicuro di abbandonare questa sessione di Studio</string>
+    <string name="study_session_title">Sessione di Studio</string>
+    <string name="stopfollow">Non Seguire</string>
+    <string name="start_with_email">Inizia con Email</string>
+    <string name="skip">salta</string>
+    <string name="signup_message">Creazione Account...</string>
+    <string name="signup_failed_error">Registrazione fallita</string>
+    <string name="signin_message">Accesso...</string>
+    <string name="sign_up">Registrati</string>
+    <string name="signin_failed_error">Accesso fallito</string>
+    <string name="sign_in">Accedi</string>
+    <string name="sicurezza">Sicurezza</string>
+    <string name="settings_activity_title">Impostazioni</string>
+    <string name="settings">Impostazioni</string>
+    <string name="set_user_profile_desc">Imposta le tue preferenze\nLe useremo per rendere migliore la tua esperienza.</string>
+    <string name="set_up_for_recommendations">Imposta i tuoi interessi o i corsi che segui per ottenere suggerimenti.</string>
+    <string name="set_up">Setta</string>
+    <string name="set_brief_description">Indica una breve descrizione utile per i partecipanti.</string>
+    <string name="sessions_map">Mappa Sessioni</string>
+    <string name="sessions_board">Bacheca Sessioni</string>
+    <string name="session_updated">Sessione caricata correttamente!</string>
+    <string name="session_participants_title">Partecipanti</string>
+    <string name="session_leave_random">Sei l\'organizzatore di questa Sessione.</string>
+    <string name="session_info_updated">Info Sessione aggiornata</string>
+    <string name="session_created">Sessione creata correttamente!</string>
+    <string name="session_board_title">Bacheca Sessioni</string>
+    <string name="session_board_text">Board Session allows you to view Study Sessions available based on your courses preferences. You can chose between Sessions near to you.</string>
+    <string name="send_email_feedback">Feedback DibApp</string>
+    <string name="select_time">Seleziona ora</string>
+    <string name="select_degree_course">Corso di laurea</string>
+    <string name="select_courses">Corsi di interesse</string>
+    <string name="sei_qui">You are here!</string>
+    <string name="seiQui">You are here!</string>
+    <string name="search_title">Cerca</string>
+    <string name="search_session_hint">Scrivi per cercare una Sessione</string>
+    <string name="search_hint">Scrivi per cercare una Nota</string>
+    <string name="retry">Riprova</string>
+    <string name="rate_button">Valuta</string>
+    <string name="range">Intervallo</string>
+    <string name="preference_version">Versione</string>
+    <string name="preference_group_information">Informazioni</string>
+    <string name="preference_group_connectivity">Connettività</string>
+    <string name="preference_account">Gestisci Account</string>
+    <string name="placeholder_search_file_new_note">Selezione il tuo file cliccando sulla icona</string>
+    <string name="password_length_error">La password deve contenere almeno 6 caratetri</string>
+    <string name="password_forget_send">Inviata email di reset</string>
+    <string name="password_choice_hint">Scegli una password</string>
+    <string name="participants_title">Partecipanti</string>
+    <string name="operation_failed">Operazione non riuscita</string>
+    <string name="opening_map">Apertura mappa...</string>
+    <string name="only_participant_session">Sei l\'unico partecipante alla sessione. Lasciandola sarà eliminata.</string>
+    <string name="only_organizer">E\' presente solo l\'organizzatore</string>
+    <string name="numberNotPresent">Numero di telefono non aggiunto</string>
+    <string name="notification_upload_message">Upload in corso</string>
+    <string name="notification_download_message">Download in corso</string>
+    <string name="notes_fragment_title">Appunti</string>
+    <string name="notes_board_title">Bacheca Appunti</string>
+    <string name="notes_board_text">Questa bacheca contiene tutti gli appunti pubblicati, con la possibilità di visualizzare le informazioni e scaricarli sul proprio telefono.</string>
+    <string name="notes_board">Bacheca Appunti</string>
+    <string name="note_details_title">Dettagli Appunti</string>
+    <string name="note_details_modify_note">Modifica Appunto</string>
+    <string name="note_details_delete_note">Elimina Appunto</string>
+    <string name="note_details_action_button_download">Scarica</string>
+    <string name="note_details_action_button_add_to_my_notes">Aggiungi ai miei appunti</string>
+    <string name="note_details">Dettagli Note</string>
+    <string name="no_data_available">Nessun dato trovato</string>
+    <string name="nfcNotAvailable">Segui con NFC non disponibile</string>
+    <string name="nfcAvailable">Segui con NFC abilitato</string>
+    <string name="next">successivo</string>
+    <string name="new_note_title">Titolo</string>
+    <string name="new_note_owner">Proprietario</string>
+    <string name="new_note_description">Descrizione</string>
+    <string name="new_note_degree_course">Corso di laurea</string>
+    <string name="new_note_course">Corso</string>
+    <string name="new_note_confirm_button">Conferma</string>
+    <string name="new_note_cancel_button">Annulla</string>
+    <string name="navigation_drawer_open">Apri Drawer</string>
+    <string name="navigation_drawer_close">Chiudi Drawer</string>
+    <string name="name_surname_hint">Nome e Cognome</string>
+    <string name="my_sessions_title">Mie Sessioni</string>
+    <string name="my_sessions_text">Qui si possono trovare tutte le sessioni a cui l\'utente è iscritto o a cui ha partecipato.</string>
+    <string name="my_sessions">Mie Sessioni</string>
+    <string name="my_notes_text">Racccoglie tutti gli appunti pubblicati dall\'utente.</string>
+    <string name="my_notes_activity">Miei Appunti</string>
+    <string name="my_notes">Miei Appunti</string>
+    <string name="modify_profile_title">Modifica Profilo</string>
+    <string name="maybe_later">Forse dopo</string>
+    <string name="matematica">Matematica</string>
+    <string name="map_board_text">Permette di visualizzare sulla mappa tutte le sessioni disponibili.</string>
+    <string name="manage_account_preference">Gestisci Account</string>
+    <string name="login_for_recommendations">Accedi per ottenere consigli</string>
+    <string name="loading_progress_dialog">Caricamento...</string>
+    <string name="loading">Caricamento...</string>
+    <string name="license_info">Licenza</string>
+    <string name="leaderboard_title">Classifica Studenti</string>
+    <string name="leaderboard">Classifica Studenti</string>
+    <string name="leader_session_warn">Sei l\'organizzatore della sessione. La sessione verra eliminata.</string>
+    <string name="joining_session">Partecipando alla Sessione...</string>
+    <string name="interestEmptyTitle">interessi non aggiunti</string>
+    <string name="interestTitle">interessi</string>
+    <string name="desc_slide_1">Organizza lo studio con altri studenti attraverso le sessioni di studio</string>
+    <string name="desc_slide_2">Rendi disponibili i tuoi appunti agli altri studenti, e accedi agli appunti disponibili.</string>
+    <string name="desc_slide_3">Usa la tua mail uniba per autenticarti, oppure esplora l\'app prima di iniziare.</string>
+    <string name="dispositivoNonSupportato">Dispositivo supportato</string>
+    <string name="authentication_failed">Autenticazione fallita</string>
+    <string name="authentication_success">Autenticazione avvenuta con successo</string>
+    <string name="bottom_bar_best">Migliori</string>
+    <string name="bottom_bar_nearme">Vicino a me</string>
+    <string name="bottom_bar_recents">Recenti</string>
+    <string name="bottom_bar_recommended">Raccomandate</string>
+    <string name="cancel">Annulla</string>
+    <string name="cancel_add_session">Sei sicuro di annullare la creazione di una sessione?</string>
+    <string name="cancel_session_answ">Sei sicuro di annullare la modifica della sessione?</string>
+    <string name="cancella">Cancella</string>
+    <string name="change_favorite_course">Scegli i tuoi corsi preferiti</string>
+    <string name="channel_fragment_title">Canale</string>
+    <string name="check_fields">Controlla i campi!</string>
+    <string name="choice_interest">Hai già scelto 4 elementi</string>
+    <string name="choice_interests_title">Scegli i tuoi interessi</string>
+    <string name="choice_place">Scegli un luogo per la sessione!</string>
+    <string name="complete_action">Conferma l\'azione usando</string>
+    <string name="conferma">Conferma</string>
+    <string name="contactInfo">Informazioni contatto</string>
+    <string name="creating_session">Sto creando la sessione...</string>
+    <string name="database">Database</string>
+    <string name="deleting_session">Sto eliminando la sessione...</string>
+    <string name="done">Conferma</string>
+    <string name="download_complete">Download completato</string>
+    <string name="download_failure">Download fallito</string>
+    <string name="edit_profile">Modifica profilo</string>
+    <string name="email_check_error">Controllo email fallito</string>
+    <string name="edit_session">Modifica sessione</string>
+    <string name="email_check_message">Sto controllando la mail...</string>
+    <string name="email_uniba_regex_error">Assicurati di utilizzare un indirizzo \@studenti.uniba.it</string>
+    <string name="empty_field">Campo vuoto!</string>
+    <string name="empty_field_error">Il campo non può essere vuoto</string>
+    <string name="empty_fields">Ci sono campi vuoti!</string>
+    <string name="error_add_interests">Errore nell\'aggiunta degli interessi</string>
+    <string name="error_read_write_ext_sto_permission">Non hai i permessi necessari!</string>
+    <string name="error_title">Il titolo deve avere minimo 3 caratteri</string>
+    <string name="fail_load_note">Caricamento appunto fallito</string>
+    <string name="field_not_empty">Il campo non può essere vuoto</string>
+    <string name="fisica">Fisica</string>
+    <string name="follow">Segui</string>
+    <string name="forget_password">Password dimenticata</string>
+    <string name="generic_fields_error">Controlla i campi</string>
+    <string name="have_to_choice_interest">Devi scegliere 4 interessi!</string>
+    <string name="help">Aiuto</string>
+    <string name="immagine_del_profilo_dell_utente">Immagine del profilo utente</string>
+    <string name="immagine_navigazione">Immagine navigazione</string>
+    <string name="immagine_profilo_utente_classificato">Immagine del profilo utente</string>
+    <string name="impossibileAvviareNavigatoreDestinazioneNonScelta">Impossibile avviare il navigatore</string>
+    <string name="impostazioni">Impostazioni</string>
+</resources>

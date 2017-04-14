@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preference_group_account">
+        <Preference android:title="@string/preference_logout"
+            android:key="logout">
+            <intent android:action="it.uniba.di.ivu.sms16.gruppo2.dibapp.AUTHLOGOUT">
+                <extra android:name="logout" android:value="true"/>
+            </intent>
+        </Preference>
+
+        <Preference android:title="@string/manage_account_preference"
+            android:key="manage_account">
+            <intent android:action="it.uniba.di.ivu.sms16.gruppo2.dibapp.MANAGE_PROFILE">
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_group_information">
+        <Preference
+            android:summary="@string/preferences_version_summary"
+            android:title="@string/preference_version">
+            <intent android:action="it.uniba.di.ivu.sms16.gruppo2.dibapp.activity.About_Fullscreen" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

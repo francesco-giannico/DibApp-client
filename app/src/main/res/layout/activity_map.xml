@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SessionsMapActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@android:color/tertiary_text_dark">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".SessionsMapActivity">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:background="@color/bg_slide_3"
+            android:id="@+id/frameLayout">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:clickable="false">
+
+                <TextView
+                    android:id="@+id/txtTempoPercorrenza"
+                    android:layout_width="177dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="left"
+                    android:text="@string/sei_qui"
+                    android:textColor="#f5f3f3"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="30dp">
+
+                </TextView>
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:baselineAlignBottom="false"
+                    android:clickable="false"
+                    android:contentDescription="@string/immagine_navigazione"
+                    android:src="@drawable/ic_navigation_white"
+                    android:layout_marginRight="30dp"
+                    android:layout_gravity="right" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/frmDettagliSessione"
+                android:layout_gravity="center_horizontal|top"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Vai ai dettagli"
+                    android:id="@+id/txtDettagliSessione"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#f6f2f2" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

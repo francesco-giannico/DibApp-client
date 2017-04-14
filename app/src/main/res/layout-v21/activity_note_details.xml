@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".note.NoteDetailsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/note_detailsToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@android:color/transparent"
+            android:gravity="end"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/note_detailsToolbar"
+        android:fillViewport="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:id="@+id/intestation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    style="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    tools:text="Titolo" />
+
+                <RatingBar
+                    android:id="@+id/noteRatingBarFix"
+                    style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp" />
+            </LinearLayout>
+
+            <GridLayout
+                android:id="@+id/note_informations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/intestation"
+                android:layout_marginTop="16dp"
+                android:columnCount="2"
+                android:rowCount="5">
+
+                <ImageView
+                    android:id="@+id/degreeCourseImageView"
+                    android:layout_width="@dimen/icon_note_details"
+                    android:layout_height="@dimen/icon_note_details"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/content_description_degree_course"
+                    android:src="@drawable/ic_degree_course" />
+
+                <TextView
+                    android:id="@+id/degreeCourseTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textSize="16sp"
+                    tools:text="CDL" />
+
+                <ImageView
+                    android:id="@+id/courseImageView"
+                    android:layout_width="@dimen/icon_note_details"
+                    android:layout_height="@dimen/icon_note_details"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/content_description_course"
+                    android:src="@drawable/ic_course" />
+
+                <TextView
+                    android:id="@+id/courseTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textSize="16sp"
+                    tools:text="CDS" />
+
+                <ImageView
+                    android:id="@+id/timeUpImageView"
+                    android:layout_width="@dimen/icon_note_details"
+                    android:layout_height="@dimen/icon_note_details"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/content_description_timeup"
+                    android:src="@drawable/ic_history" />
+
+                <TextView
+                    android:id="@+id/timeUploadTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textSize="16sp"
+                    tools:text="12-12-12 12:12" />
+
+                <ImageView
+                    android:id="@+id/formatImageView"
+                    android:layout_width="@dimen/icon_note_details"
+                    android:layout_height="@dimen/icon_note_details"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/content_description_format"
+                    android:src="@drawable/ic_file_format" />
+
+                <TextView
+                    android:id="@+id/formatTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textSize="16sp"
+                    tools:text="Formato" />
+
+                <ImageView
+                    android:id="@+id/downloadsImageView"
+                    android:layout_width="@dimen/icon_note_details"
+                    android:layout_height="@dimen/icon_note_details"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/content_description_downloads"
+                    android:src="@drawable/ic_download"
+                    android:tint="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/downloadsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textSize="16sp"
+                    tools:text="1" />
+
+                <ImageView
+                    android:id="@+id/viewsImageView"
+                    android:layout_width="@dimen/icon_note_details"
+                    android:layout_height="@dimen/icon_note_details"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/content_description_views"
+                    android:src="@drawable/ic_views" />
+
+                <TextView
+                    android:id="@+id/viewsTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    tools:text="1" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/owner_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/note_informations"
+                android:layout_marginTop="16dp"
+                android:text="@string/new_note_owner"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/owner_label"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/avatarNoteOwner"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_account_circle_dark" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="16dp">
+
+                    <TextView
+                        android:id="@+id/informationOwner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        tools:text="Nome Cognome" />
+
+                    <RatingBar
+                        android:id="@+id/ownerRatingBar"
+                        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/label_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/owner"
+                android:layout_marginTop="16dp"
+                android:text="@string/new_note_description"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/label_description"
+                android:textSize="16sp"
+                tools:text="@string/lorem" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/rateFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/star_big_on"
+        android:tint="@android:color/white"
+        app:layout_behavior=".utils.FABehavior" />
+
+
+</android.support.design.widget.CoordinatorLayout>

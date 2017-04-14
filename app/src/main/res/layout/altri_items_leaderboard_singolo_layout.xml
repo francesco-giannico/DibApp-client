@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_items"
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:layout_marginBottom="1dp"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/intestazione"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/txtPosizione"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:autoText="false"
+            android:text="@string/txtPosizioneClass"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_photo"
+            android:layout_width="57dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/immagine_profilo_utente_classificato"
+            android:src="@drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/studente_nome"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.40"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/studente_nome_classifica"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/studente_ratingBar"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="#f2f725"
+            android:rating="4"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+</RelativeLayout>

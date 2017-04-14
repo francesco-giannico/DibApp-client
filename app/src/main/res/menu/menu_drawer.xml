@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/sessions_board"
+            android:icon="@drawable/ic_people_dark"
+            android:title="@string/sessions_board" />
+        <item
+            android:id="@+id/sessions_map"
+            android:icon="@drawable/ic_map_dark"
+            android:title="@string/sessions_map" />
+        <item
+            android:id="@+id/notes_board"
+            android:icon="@drawable/ic_document_dark"
+            android:title="@string/notes_board" />
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/my_sessions"
+            android:icon="@drawable/ic_people_outline_dark"
+            android:title="@string/my_sessions" />
+        <item
+            android:id="@+id/my_notes"
+            android:icon="@drawable/ic_icon_note"
+            android:title="@string/my_notes" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/leaderboard"
+            android:icon="@drawable/ic_leaderboard_dark"
+            android:title="@string/leaderboard" />
+    </group>
+
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_dark"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_dark"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback_dark"
+            android:title="@string/feedback" />
+    </group>
+</menu>

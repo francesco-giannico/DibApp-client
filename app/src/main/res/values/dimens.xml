@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="app_bar_height">330dp</dimen>
+
+    <!-- Intro slides dimensions -->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="slide_bottom_text">16sp</dimen>
+
+    <dimen name="slide_margintop_maybe">4dp</dimen>
+    <dimen name="slide_marginend_maybe">46dp</dimen>
+    <dimen name="slide_maybe_btn">16sp</dimen>
+
+    <!-- Auth activity dimensions -->
+    <dimen name="auth_title">30sp</dimen>
+    <dimen name="auth_desc">18sp</dimen>
+
+
+    <dimen name="card_view_primary_text">20sp</dimen>
+    <dimen name="card_view_subtext">14sp</dimen>
+    <dimen name="note_list_primary_text">16sp</dimen>
+    <dimen name="note_list_secondary_text">14sp</dimen>
+
+    <dimen name="icon_note_details">24dp</dimen>
+
+
+</resources>

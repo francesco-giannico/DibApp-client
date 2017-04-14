@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemNoteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="72dp"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp">
+
+        <ImageView
+            android:id="@+id/note_icon"
+            android:layout_width="72dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_icon_note" />
+
+        <TextView
+            android:id="@+id/format_list_text_view"
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            tools:text="json" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/appunto_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/note_list_primary_text"
+            android:textStyle="bold"
+            tools:text="Esercizi pag.24 n 2-4dsfdfdsf" />
+
+        <TextView
+            android:id="@+id/appunto_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:maxLines="1"
+            android:textSize="@dimen/note_list_secondary_text"
+            tools:text="Informatica - 23/11/2013 12:30" />
+
+        <RatingBar
+            android:id="@+id/appunto_ratingBar"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:paddingTop="2dp"
+            android:rating="3.5" />
+    </LinearLayout>
+</LinearLayout>

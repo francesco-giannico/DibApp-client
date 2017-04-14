@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">Dib App</string>
+
+    <string name="next">next</string>
+    <string name="skip">skip</string>
+    <string name="maybe_later">maybe later</string>
+    <string name="retry">Retry</string>
+
+    <string name="title_slide_1">Share your knowledge</string>
+    <string name="title_slide_2">Share your notes</string>
+    <string name="title_slide_3">Start Sharing</string>
+
+    <string name="desc_slide_2">Make available your notes to other students, and take theirs easily</string>
+    <string name="desc_slide_3">Use your uniba mail as authentication, or explore app before start.</string>
+
+    <string name="start_with_email">start with email</string>
+
+    <string name="auth_title">Authentication</string>
+    <string name="auth_desc">Start using DibApp with your academic email.</string>
+    <string name="auth_signin_desc">Your email is already registered.\nEnter your password to continue.</string>
+    <string name="auth_signup_desc">Tell us something about yourself before to continue.</string>
+    <string name="set_user_profile_desc">Set your preferences\nWe will use these for make better your experience.</string>
+
+    <string name="auth_email_title">Sign In with Email</string>
+    <string name="auth_signin_title">Sign In</string>
+    <string name="auth_signup_title">Create Account</string>
+    <string name="auth_sign_out">Sign out successful</string>
+
+    <string name="email_uniba_regex" translatable="false">\@studenti.uniba.it</string>
+    <string name="email_uniba_hint" translatable="false">email\@studenti.uniba.it</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="password_choice_hint">Choice a Password</string>
+    <string name="name_surname_hint">Name and Surname</string>
+    <string name="select_degree_course">Degree Course</string>
+    <string name="select_courses">Interested Coursers</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="_continue">continue</string>
+
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="done">Done</string>
+
+    <string name="nfcAvailable">Follow with NFC enabled</string>
+    <string name="nfcNotAvailable">Follow with NFC not available</string>
+
+    <string name="empty_field_error">Field cannot be Empty</string>
+    <string name="email_uniba_regex_error">Make sure to use a \@studenti.uniba.it email</string>
+
+    <string name="toStudyVerb">Studies</string>
+    <string name="numberNotPresent">Phone number not added</string>
+
+    <string name="email_check_error">Email check failed</string>
+    <string name="email_check_message">Checking email&#8230;</string>
+    <string name="signin_failed_error">Sign In failed</string>
+    <string name="signin_message">Signing in&#8230;</string>
+    <string name="signup_failed_error">Sign Up failed</string>
+    <string name="signup_message">Creating account&#8230;</string>
+
+
+    <string-array name="degree_courses_array">
+        <item>Informatica</item>
+        <item>Informatica e Tecnologie per la Produzione del Software</item>
+        <item>Informatica e Comunicazione Digitale</item>
+    </string-array>
+
+    <integer name="password_min_length">6</integer>
+    <string name="password_length_error">Password must contain at least 6 characters</string>
+    <string name="generic_fields_error">Check Fields</string>
+    <string name="password_forget_send">Email reset send to </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Info Session</string>
+    <string name="action_search">Search Session</string>
+    <string name="action_map">Session on Map</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_leave">Leave Session</string>
+
+    <string name="uploading_image">Uploading image&#8230;</string>
+
+    <string name="channel_fragment_title">Channel</string>
+    <string name="notes_fragment_title">Notes</string>
+    <string name="complete_action">Complete action using</string>
+
+    <string name="bottom_bar_nearme">Near Me</string>
+
+
+    <string name="add_note_title">Add Note</string>
+    <string name="note_details_title">Note Details</string>
+    <string name="hint_password" translatable="false">password</string>
+    <string name="hint_email" translatable="false">email</string>
+
+
+    <!-- NOTE DETAILS -->
+    <string name="note_details">Note Details</string>
+    <string name="rate_button">Rate</string>
+    <string name="notification_download_title" translatable="false">Downloading</string>
+    <string name="notification_download_message">Download in progress</string>
+    <string name="download_complete">Download complete</string>
+    <string name="fail_load_note">Failed to load note</string>
+    <string name="download_failure">Failed to download</string>
+
+    <!-- NEW NOTE -->
+    <string name="upload_failure">Failed to upload</string>
+    <string name="error_title">Minimum title length 3 characters</string>
+    <string name="empty_field">Empty field!</string>
+    <string name="empty_fields">There are empty fields!</string>
+    <string name="error_read_write_ext_sto_permission">You don\'t have permissions!</string>
+    <string name="progress_bar_upload_message" translatable="false">Upload…</string>
+    <string name="notification_upload_title" translatable="false">Uploading</string>
+    <string name="notification_upload_message">Upload in progress</string>
+    <string name="upload_complete">Upload complete</string>
+    <string name="placeholder_search_file_new_note">Select your file by clicking on the icon</string>
+    <string name="new_note_title">Title</string>
+    <string name="new_note_degree_course">Degree Course</string>
+    <string name="new_note_course">Course</string>
+    <string name="new_note_description">Description</string>
+    <string name="new_note_cancel_button">Cancel</string>
+    <string name="new_note_confirm_button">Done</string>
+    <string name="upload_note_failed">Upload note failed.</string>
+
+    <!-- CONTENT DESCRIPTIONS -->
+    <string name="content_description_degree_course" translatable="false">content_description_degree_course</string>
+    <string name="content_description_course" translatable="false">content_description_course</string>
+    <string name="content_description_timeup" translatable="false">content_description_timeUp</string>
+    <string name="content_description_format" translatable="false">content_description_format</string>
+    <string name="content_description_downloads" translatable="false">content_description_downloads</string>
+    <string name="content_description_views" translatable="false">content_description_views</string>
+    <string name="content_description_avatar" translatable="false">content_description_avatar</string>
+
+    <!-- DRAWER ITEMS-->
+    <string name="sessions_board">Sessions Board</string>
+    <string name="notes_board">Notes Board</string>
+    <string name="sessions_map">Sessions Map</string>
+    <string name="my_sessions">My Sessions</string>
+    <string name="my_notes">My Notes</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="feedback" translatable="false">Feedback</string>
+
+    <string name="lorem" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="note_details_action_button_download">Download</string>
+    <string name="note_details_delete_note">Delete note</string>
+    <string name="note_details_action_button_add_to_my_notes">Add to My Notes</string>
+    <string name="note_details_modify_note">Modify note</string>
+    <string name="bottom_bar_recents">Recents</string>
+    <string name="bottom_bar_recommended">Recommended</string>
+    <string name="bottom_bar_best">Best</string>
+
+
+    <!-- MISCELLANEOUS -->
+    <string name="notificationId_down" translatable="false">notificationIdDown</string>
+    <string name="notificationId_up" translatable="false">notificationIdUp</string>
+    <string name="new_note_owner">Owner</string>
+
+    <string name="search_title">Search</string>
+    <string name="search_hint">Type to search a note</string>
+    <string name="loading_progress_dialog">Loading…</string>
+    <string name="no_data_available">No data found</string>
+    <string name="settings_activity_title">Settings</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="preference_group_account" translatable="false">Account</string>
+    <string name="preference_group_notification_feedback" translatable="false">Notification and Feedback</string>
+    <string name="preference_group_connectivity">Connectivity</string>
+    <string name="preference_group_information">Information</string>
+
+    <string name="preference_logout" translatable="false">Logout</string>
+    <string name="preference_account">Manage Account</string>
+    <string name="preference_nearby_sessions" translatable="false">Enable nearby sessions</string>
+    <string name="preference_vibration_feedback" translatable="false">Enable vibration feedback</string>
+    <string name="preference_NFC_to_follow" translatable="false">Enable NFC to follow</string>
+    <string name="preference_version">Version</string>
+    <string name="preferences_version_summary" translatable="false">1.0</string>
+    <string name="preference_credits" translatable="false">Credits</string>
+
+    <string name="title_activity_about__fullscreen" translatable="false">About_Fullscreen</string>
+    <string name="name_dibapp" translatable="false">DibApp</string>
+    <string name="version_info" translatable="false">Version 1.0</string>
+    <string name="license_info">License</string>
+    <string name="send_email_feedback">Feedback DibApp</string>
+
+    <!-- HELP TEXTS -->
+    <string name="introduction_text" translatable="false">DibApp è una applicazione che permette agli studenti di informatica di mettersi in contatto con altri studenti che seguono i suoi stessi corsi e scambiarsi appunti, chattare, chiedere informazioni e creare sessioni di studio dove poter condividere le proprie conoscenze e utilizzare quelle di altri.</string>
+    <string name="session_board_text">La bacheca delle sessioni permette di visualizzare le sessioni di studio disponibili in base ai corsi seguiti. Si può scegliere tra le sessioni più vicine, quelle consigliate in base ai propri interessi e quelle più recenti.</string>
+    <string name="map_board_text">Allow to show all available sessions</string>
+    <string name="notes_board_text">This Board contains all published notes, with the able to view information and download them on your phone.</string>
+    <string name="my_notes_text">Handle all notes of user.</string>
+
+
+    <string name="immagine_del_profilo_dell_utente">Profile image</string>
+    <string name="txtPosClass" translatable="false">1</string>
+    <string name="txtPosizioneClass" translatable="false">123</string>
+    <string name="immagine_profilo_utente_classificato">Profile image</string>
+    <string name="studente_nome_classifica" translatable="false">Francesco G.</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="titoloApp" translatable="false">Google Maps </string>
+
+    <array name="spinner_list_item_array">
+        <item>"Tutte le sessioni"</item>
+        <item>"Sessioni LeaderLess"</item>
+        <item>"Sessioni Teaching"</item>
+        <item>"Sessioni Iniziate"</item>
+    </array>
+    <array name="spinner_range">
+        <item>"500 metri(Default)"</item>
+        <item>"1 Chilometro"</item>
+    </array>
+    <string name="SelezionaSessione">Choice a session for details</string>
+    <string name="ErroreLocationDisabilitata">Unable to find position. Check gps settings</string>
+    <string name="ErroreImpossibileStabilirePosizione">Unable to show sessions on Map</string>
+    <string name="impossibileAvviareNavigatoreDestinazioneNonScelta">Unable to start navigator</string>
+    <string name="dispositivoNonSupportato">Device not supported</string>
+    <string name="aPiedi">Walk</string>
+    <string name="lingua" translatable="false">"it"</string>
+    <string name="seiQui">"Sei qui"</string>
+    <string name="sei_qui">Sei Qui!</string>
+    <string name="immagine_navigazione">Navigation image</string>
+
+
+    <string name="range">Range</string>
+    <string name="conferma">Done</string>
+    <string name="cancella">Cancel</string>
+    <string name="impostazioni">Preferences</string>
+
+    <string name="follow">Follow</string>
+    <string name="stopfollow">Don\'t follow</string>
+    <string name="contactInfo">Contact info</string>
+    <string name="interestTitle">Interests</string>
+    <string name="interestEmptyTitle">Interests not added</string>
+    <string name="titleInterests">Choose four interests</string>
+
+    <string name="matematica">Mats</string>
+    <string name="fisica">Physic</string>
+    <string name="sicurezza">Security</string>
+    <string name="programmazione" translatable="false">Coding</string>
+    <string name="programmazione_android" translatable="false">Android developing</string>
+    <string name="programmazione_web" translatable="false">Web developing</string>
+    <string name="ux" translatable="false">User experience</string>
+    <string name="database">Database</string>
+    <string name="machine_learning" translatable="false">Machine learning</string>
+
+    <string-array name="corsi_disponibili">
+        <item>"Algoritmi e strutture dati"</item>
+        <item>"Analisi matematica"</item>
+        <item>"Architettura degli elaboratori"</item>
+        <item>"Basi di dati"</item>
+        <item>"Fondamenti di fisica"</item>
+        <item>"Gestione della conoscenza di impresa"</item>
+        <item>"Calcolabilità e complessità"</item>
+        <item>"Calcolo delle probabilità e statistica"</item>
+        <item>"Calcolo numerico"</item>
+        <item>"Ingegneria della conoscenza e sistemi esperti"</item>
+        <item>"Ingegneria del software"</item>
+        <item>"Interazioine uomo-macchina"</item>
+        <item>"Linguaggi di programmazione"</item>
+        <item>"Lingua inglese"</item>
+        <item>"Matematica discreta"</item>
+        <item>"Metodi avanzati di programmazione"</item>
+        <item>"Programmazione"</item>
+        <item>"Reti di calcolatori"</item>
+        <item>"Sviluppo videogiochi"</item>
+        <item>"Sistemi multimediali"</item>
+        <item>"Sviluppo mobile software"</item>
+    </string-array>
+
+    <string name="search_session_hint">Type to search a Session</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="activity_leaderboard">LeaderBoard</string>
+    <string name="activity_mappa">Sessions Map</string>
+    <string name="session_board_title">Session Board</string>
+    <string name="study_session_title">Study Session</string>
+    <string name="add_session_title">Add New Session</string>
+    <string name="session_participants_title">Session Participants</string>
+    <string name="notes_board_title">Notes Board</string>
+    <string name="my_notes_activity">My Notes</string>
+    <string name="my_sessions_title">My Sessions</string>
+    <string name="leaderboard_title">LeaderBoard</string>
+    <string name="choice_interests_title">Choice Interests</string>
+    <string name="modify_profile_title">Modify Profile</string>
+    <string name="manage_account_preference">Manage Account</string>
+
+    <string name="authentication_success">Authentication Success</string>
+    <string name="authentication_failed">Authentication Failed</string>
+    <string name="login_for_recommendations">Log in for getting recommendation</string>
+    <string name="set_up">SET UP</string>
+    <string name="set_up_for_recommendations">Set up your interest or your following course before to get recommendations</string>
+    <string name="joining_session">Joining Session...</string>
+    <string name="wait_loading_note">Wait for note loading</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_favorite_course">Choice your favorite courses</string>
+    <string name="add">Add</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="unable_to_load_user">Unable to show user info</string>
+    <string name="loading">Loading...</string>
+    <string name="user_details">User details</string>
+    <string name="error_add_interests">Error adding interests</string>
+    <string name="have_to_choice_interest">You have to choice 4 interests</string>
+    <string name="session_updated">Session successfully updated!</string>
+    <string name="updating_session">Updating Session...</string>
+    <string name="session_created">Session successfully created!</string>
+    <string name="creating_session">Creating Session...</string>
+    <string name="choice_place">Choice a place for Session!</string>
+    <string name="opening_map">Opening Map...</string>
+    <string name="field_not_empty">Field cannot be empty!</string>
+    <string name="select_time">Select Time</string>
+    <string name="cancel_session_answ">Are you sure to cancel Edit Session?</string>
+    <string name="cancel_add_session">Are you sure to cancel Creation of new Session?</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="check_fields">Check Fields!</string>
+    <string name="edit_session">Edit Session</string>
+    <string name="add_session">Add Session</string>
+    <string name="session_info_updated">Session info updated</string>
+    <string name="updating_info">Updating info...</string>
+    <string name="deleting_session">Deleting Session...</string>
+    <string name="sure_to_leave_session">Are you sure to leave this Study Session?</string>
+    <string name="only_participant_session">You are the only participant of this Study Session. Leaving it, Session will be deleted.</string>
+    <string name="leader_session_warn">You are the Leader of this Study Session. Session will be deleted.</string>
+    <string name="session_leave_random">You the organizer of this Study Session. Leaving it, a random participant will become organizer.</string>
+    <string name="only_organizer">Only The Organizer is present</string>
+    <string name="participants_title">Session Participants</string>
+    <string name="set_brief_description">Set a description for the partecipants.</string>
+    <string name="operation_failed">Uncomplete operation</string>
+    <string name="my_sessions_text">Here all sessions where user is participating.</string>
+    <string name="desc_slide_1">Organize your study wiht others students in study sessions</string>
+    <string name="choice_interest">You have added 4 interests yet</string>
+</resources>

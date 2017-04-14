@@ -3,7 +3,7 @@ An app realized by Antonio Lategano , Francesco Giannico, Salvatore Gentile, Sal
 This app allows notes sharing between students and creation of study sessions.
 
 ## Requirements
-* `Mininum sdk 4.1.x`
+* `Minimum sdk 4.1.x`
 * `University of Bari e-mail account`
 
 ## Installation
